@@ -68,6 +68,9 @@ To get started follow the instructions below
 # clone the repo
 git clone https://github.com/delineateio/packer-examples.git
 
+# creates the virtual env
+pyenv virtualenv hashicorp-packer-example
+
 # installs the tooling requirements
 pip install -r requirements.txt
 
