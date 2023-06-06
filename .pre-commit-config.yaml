@@ -4,13 +4,13 @@ ci:
 repos:
 
 - repo: https://github.com/gruntwork-io/pre-commit
-  rev: v0.1.17
+  rev: v0.1.22
   hooks:
     - id: packer-validate
       name: packer validation
 
 - repo: https://github.com/gitguardian/ggshield
-  rev: v1.14.2
+  rev: v1.16.0
   hooks:
     - id: ggshield
       name: gitguardian scanning
