@@ -4,19 +4,19 @@ ci:
 repos:
 
 - repo: https://github.com/gruntwork-io/pre-commit
-  rev: v0.1.23
+  rev: v0.1.25
   hooks:
     - id: packer-validate
       name: packer validation
 
 - repo: https://github.com/gitguardian/ggshield
-  rev: v1.22.0
+  rev: v1.34.0
   hooks:
     - id: ggshield
       name: gitguardian scanning
 
 - repo: https://github.com/pre-commit/pre-commit-hooks
-  rev: v4.5.0
+  rev: v5.0.0
   hooks:
     - id: trailing-whitespace
       name: trailing whitespace
